@@ -218,6 +218,10 @@ ul, ol, li {
 	letter-spacing: 5px;
 }
 
+.navbar-lg .navbar-brand > img {
+	width: 80px;
+}
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #fff;
 	background-color: transparent;
@@ -4250,7 +4254,7 @@ input:focus, textarea:focus {
 	}
 
 	.navbar-brand > img {
-    max-width: 80px;
+    	max-width: 80px;
 	}
 	
 	.error-content h4 {
@@ -4308,6 +4312,10 @@ input:focus, textarea:focus {
 
 	.navbar-lg .navbar-brand {
 		font-size: 22px;
+	}
+	
+	.navbar-lg .navbar-brand > img {
+		width: 32px;
 	}
 }
 
