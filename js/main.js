@@ -8,6 +8,8 @@ Author URL: https://themeforest.net/user/thememor
 $(document).ready(function() {
     "use strict";
 
+    $('#timeClock').text(new Date().getFullYear());
+
     // Anchor Smooth Scroll
     $('body').on('click', '.page-scroll', function(event) {
         var $anchor = $(this);
@@ -180,7 +182,7 @@ $('.count').each(function() {
         duration: 2000,
         easing: 'swing',
         step: function(now) {
-            $(this).text(Math.ceil(now));
+            $(this).text(Math.ceil(now).toLocaleString());
         }
     });
 });
