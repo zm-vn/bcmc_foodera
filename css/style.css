@@ -382,7 +382,7 @@ ul, ol, li {
 /*  Intro */
 
 .intro3 {
-	background: url(../images/bg/3.jpg) no-repeat center;
+	background: url(../images/bg/2.jpg) no-repeat center;
 	padding: 270px 0 150px;
 	background-size: cover;
 }
@@ -4350,14 +4350,6 @@ input:focus, textarea:focus {
 	}
 }
 
-@media only screen and (min-width: 993px)  and (max-width: 4000px) {
-
-	.center-content {
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-	}
-}
 .footerP a{
 	color:#fff;
 	padding: 0 30px 0 0;
@@ -4369,13 +4361,32 @@ input:focus, textarea:focus {
 }
 
 
-.showTiktok {
-	display: flex;
-	gap: 20px;
-}
-.showTiktok blockquote {
-	flex: 1;
-	border: none;
+@media only screen and (max-width: 600px) {
+	.intro3 {
+		padding: 80px 0 50px;
+	}
+	.intro3 h3 {
+		color: #f1bd36;
+	}
+
+	.intro-about2 .col-md-5 {
+		margin-bottom: 20px;
+	}
+
+	.video-action .text-center {
+		margin: 0 !important;
+	}
+
+	.parallax2 .margin-left-0 {
+		margin-top: 15px;
+		margin-left: 0;
+	}
 }
 
-
+@media only screen and (min-width: 993px)  and (max-width: 4000px) {
+	.center-content {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+}
