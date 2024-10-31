@@ -4362,6 +4362,10 @@ input:focus, textarea:focus {
 
 
 @media only screen and (max-width: 600px) {
+	#stats2 {
+		padding: 20px 0 20px;
+	}
+	
 	.intro3 {
 		padding: 80px 0 50px;
 	}
@@ -4369,6 +4373,9 @@ input:focus, textarea:focus {
 		color: #f1bd36;
 	}
 
+	.intro-about2 {
+		padding-top: 40px;
+	}
 	.intro-about2 .col-md-5 {
 		margin-bottom: 20px;
 	}
@@ -4380,6 +4387,10 @@ input:focus, textarea:focus {
 	.parallax2 .margin-left-0 {
 		margin-top: 15px;
 		margin-left: 0;
+	}
+	
+	.story-1 {
+		max-width: 400px;
 	}
 }
 
